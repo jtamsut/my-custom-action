@@ -1,0 +1,14 @@
+name: 'Suppity my dooood'
+description: 'Do you know the meaning of lyfe?'
+inputs:
+  do-you-want-to-dance:
+    description: 'Down to party?'
+    required: true
+    default: 'Hmmmmmmmmmmmmm'
+  outputs: 
+    time: 
+      description: 'p a r t y t i m e'
+  runs:
+    using: 'node16'
+    main: 'index.js'
+  
